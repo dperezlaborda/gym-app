@@ -1,0 +1,46 @@
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+
+.back{
+    background-color:#A84FD7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height:370px;
+    margin: 70px 25px;
+    padding: 20px;
+    position: relative;
+    width:600px;
+    .card-header{
+        box-sizing: border-box;
+        color:#FBC8F2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    .card-logo{
+        background-image: url(./sprint.png);
+        background-size: cover;
+        height: 30px;
+        position: absolute;
+        left:40px;
+        width: 30px;
+    }
+    .card-circle{
+        background-color: #4751C7;
+        border-radius: 50%;
+        display: inline-block;
+        height: 50px;
+        position: absolute;
+        right: 80px;
+        width: 50px;
+        z-index:1;
+        }
+    .card-title{
+        font-size: 20px;
+        z-index: 2;
+        }
+    }
+
+}
