@@ -1,4 +1,4 @@
-h1{
+h1, h2{
     font-family: 'Nunito', sans-serif;
 }
 
@@ -6,41 +6,51 @@ h1{
     background-color:#A84FD7;
     border-radius: 10px;
     box-sizing: border-box;
-    height:370px;
+    box-shadow: inset 0 0 0 1px #FBC8F2;
+    height:500px;
     margin: 70px 25px;
     padding: 20px;
     position: relative;
-    width:600px;
+    width:800px;
     .card-header{
         box-sizing: border-box;
         color:#FBC8F2;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        letter-spacing: 8px;
         text-transform: uppercase;
-    .card-logo{
-        background-image: url(./sprint.png);
-        background-size: cover;
-        height: 30px;
-        position: absolute;
-        left:40px;
-        width: 30px;
-    }
-    .card-circle{
-        background-color: #4751C7;
-        border-radius: 50%;
-        display: inline-block;
-        height: 50px;
-        position: absolute;
-        right: 80px;
-        width: 50px;
-        z-index:1;
+        .division{
+            background-color: rgba(41, 40, 40, 0.5);
+            height: 5px;
+            position: absolute;
+            top:80px;
+            width: 750px;
         }
-    .card-title{
-        font-size: 20px;
-        z-index: 2;
+        .card-logo{
+            background-image: url(./sprint.png);
+            background-size: cover;
+            height: 30px;
+            position: absolute;
+            left:40px;
+            width: 30px;
         }
-    }
+        .card-day{
+            color:#FBC8F2;
+            font-size: 18px;
+            position: absolute;
+            left:85px;
+            letter-spacing: 5px;
+            top:20px;
+        }
 
+        .card-title{
+            font-size: 20px;
+            letter-spacing: 8px;
+            z-index: 2;
+        }
+    }
+    .card-body{
+        position: absolute;
+        top:100px;
+    }
 }

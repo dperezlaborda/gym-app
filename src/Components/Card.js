@@ -1,19 +1,19 @@
 import React from 'react';
 import './Card.scss';
-import lunes from './lunes.jpeg'
 
-const Card = () =>{
+const Card = (props) =>{
     return(
-        <div className="back">
-                <header className="card-header">
-                    <div className="card-logo"></div>
-                    <span className="card-circle"></span>
-                    <h1 className="card-title">aerobico</h1>
-                </header>
-                <body>
-                </body>
-                <footer>
-                </footer>
+        <div className="back blur">
+            <header className="card-header">
+                <div className="card-logo"></div>
+                <h2 className="card-day">lunes</h2>
+                <h1 className="card-title">gym app</h1>
+                <span className="division"></span>
+            </header>
+            <body className="card-body">
+            </body>
+            <footer>
+            </footer>
         </div>
     )
 }
