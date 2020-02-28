@@ -8,7 +8,7 @@ const AddTime = () =>{
     }
     return(
         <div className="margenes">
-            <button onClick={addNumber}>+</button>
+            <button className="bttn" onClick={addNumber}>+</button>
             <span>{number} Minutos</span>
         </div>
     );
